@@ -13,9 +13,19 @@ body {
   width: 100vw;
 }
 
+h1 {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 220px;
+}
+
 div {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding: 250px;
+  height: 30vh;
+  padding: 10px 10px;
+  padding-top: 10px;
 }
