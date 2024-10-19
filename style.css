@@ -13,9 +13,9 @@ body {
   width: 100vw;
 }
 
-div {
+.login {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding: 250px;
+  padding: 200px;
 }
