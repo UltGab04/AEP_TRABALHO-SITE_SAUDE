@@ -30,9 +30,10 @@ div.login {
 }
 
 footer {
+  margin-top: 10%;
   display: flex;
   align-content: space-around;
   justify-content: center;
   align-items: stretch;
-  gap: 10px;
+  gap: 30px;
 }
