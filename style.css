@@ -13,28 +13,26 @@ body {
   width: 100vw;
 }
 
-<<<<<<< HEAD
 h1 {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-top: 200px;
+}
+
+div.login {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 350px;
+  padding-top: 10px;
+}
+
+footer {
   display: flex;
   align-content: space-around;
   justify-content: center;
   align-items: stretch;
-  padding-top: 220px;
-}
-
-div {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-around;
-  height: 30vh;
-  padding: 10px 10px;
-  padding-top: 10px;
-}
-
-.login {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-around;
-  padding: 200px;
->>>>>>> Vanço
+  gap: 10px;
 }
