@@ -27,6 +27,9 @@ div.login {
   justify-content: space-around;
   padding: 350px;
   padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
 }
 
 footer {
@@ -36,4 +39,28 @@ footer {
   justify-content: center;
   align-items: stretch;
   gap: 30px;
+}
+input#email {
+  display: flex;
+  width: 350px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+input#senha {
+  display: flex;
+  width: 350px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+label {
+  width: 50px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+input#lembrar {
+  width: 15px;
+  height: 15px;
 }
