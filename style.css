@@ -12,6 +12,11 @@ body {
   height: 100vh;
   width: 100vw;
 }
+div.criarConta{
+  color: blue;
+  text-decoration: none;
+
+ }
 
 h1 {
   display: flex;
@@ -21,7 +26,8 @@ h1 {
   padding-top: 200px;
 }
 
-div.login {
+div.login{
+  text-decoration: none;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
@@ -30,10 +36,16 @@ div.login {
 }
 
 footer {
+  background-color: rgba(120, 212, 181, 0.286);
   margin-top: 10%;
   display: flex;
   align-content: space-around;
   justify-content: center;
   align-items: stretch;
   gap: 30px;
+}
+
+div.rodape {
+  color: aliceblue;
+  
 }
