@@ -33,6 +33,9 @@ div.login{
   justify-content: space-around;
   padding: 350px;
   padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
 }
 
 footer {
@@ -43,4 +46,53 @@ footer {
   justify-content: center;
   align-items: stretch;
   gap: 30px;
+}
+input#email {
+  display: flex;
+  width: 350px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+input#senha {
+  display: flex;
+  width: 350px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+label {
+  width: 50px;
+  gap: 2px;
+  font-size: 20px;
+}
+
+input#lembrar {
+  width: 16px;
+  height: 16px;
+}
+
+form {
+  height: 400px;
+}
+
+input {
+  width: 90px;
+  height: 30px;
+  margin: 8px 8px;
+}
+
+strong {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  margin: 20px;
+  align-items: stretch;
+  justify-content: space-around;
 }
