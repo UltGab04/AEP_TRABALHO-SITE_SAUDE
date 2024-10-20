@@ -1,0 +1,10 @@
+body{
+    
+        background-image: url("Tema\ site\ 1920\ x\ 1080.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+      }
