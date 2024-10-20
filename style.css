@@ -83,6 +83,7 @@ strong {
 }
 
 a {
+  text-decoration: none;
   display: flex;
   margin: 20px;
   align-items: stretch;
