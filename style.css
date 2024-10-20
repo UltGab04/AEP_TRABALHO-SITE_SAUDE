@@ -64,3 +64,27 @@ input#lembrar {
   width: 15px;
   height: 15px;
 }
+
+form {
+  height: 400px;
+}
+
+input {
+  width: 65px;
+  height: 27px;
+  margin: 6px 6px;
+}
+
+strong {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+a {
+  display: flex;
+  margin: 10px;
+  align-items: stretch;
+  justify-content: space-around;
+}
