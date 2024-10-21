@@ -9,15 +9,28 @@ body {
   width: 100vw;
 }
 
-a {
+a,
+li,
+h1,
+h2 {
+  list-style: none;
   text-decoration: none;
 }
 
 .cabecario {
   background-color: rgba(120, 212, 181, 0.286);
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   padding: 2vh;
+}
+.imagem-logo-cabecario {
+  height: 10vh;
+  width: 10vh;
+}
+
+.lista-nav {
+  margin-left: 1vh;
 }
 
 .container-logo {
@@ -62,13 +75,13 @@ h1 {
 
 .rodape {
   background-color: rgba(120, 212, 181, 0.286);
-  position: fixed;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
   padding: 2vh;
 }
+
 input#email {
   border-radius: 4px;
   display: block;
