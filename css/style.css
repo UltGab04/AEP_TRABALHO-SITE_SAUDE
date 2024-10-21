@@ -1,10 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
+html,
 body {
-  background-image: url("img/Tema\ site\ 1920\ x\ 1080.jpg");
+  background-image: url(/img/Tema\ site\ 1920\ x\ 1080.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -12,40 +8,51 @@ body {
   height: 100vh;
   width: 100vw;
 }
-div.criarConta{
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.imagem-logo {
+  margin: 2vh;
+  height: 25vh;
+  width: 25vh;
+}
+
+.titulo-login{
+  padding: 5vh;
+  font-weight: bold;
+}
+
+.criarConta {
   color: rgb(0, 0, 255);
   text-decoration: none;
-
- }
+}
 
 h1 {
   display: flex;
   align-content: space-around;
   justify-content: space-around;
   align-items: stretch;
-  padding-top: 200px;
 }
 
-div.login{
+.login {
   text-decoration: none;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding: 350px;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 20px;
 }
 
 footer {
   background-color: rgba(120, 212, 181, 0.286);
-  margin-top: 10%;
+  margin-top: 20%;
+  padding: 2vh;
   display: flex;
   align-content: space-around;
   justify-content: center;
   align-items: stretch;
-  gap: 30px;
 }
 input#email {
   border-radius: 4px;
@@ -78,7 +85,6 @@ form {
   height: 160px; /* Altura do Footer*/
   align-items: center;
   flex-direction: column;
-
 }
 
 input {
@@ -102,16 +108,16 @@ a {
   justify-content: space-around;
 }
 
-input.botao{
+input.botao {
   align-items: center;
-width: 100px;
-height: 40px;
-margin-top: 30px;
-flex-direction: column;
-align-items: center;
-color: rgb(0, 0, 0);
-background-color: rgba(0, 255, 255, 0.267);
-font-size: large;
-cursor: pointer;
-margin-left: 80px;
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 255, 255, 0.267);
+  font-size: large;
+  cursor: pointer;
+  margin-left: 80px;
 }
