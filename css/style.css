@@ -1,10 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
+html,
 body {
-  background-image: url("img/Tema\ site\ 1920\ x\ 1080.jpg");
+  background-image: url(/img/Tema\ site\ 1920\ x\ 1080.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -12,9 +8,55 @@ body {
   height: 100vh;
   width: 100vw;
 }
-div.criarConta {
-  color: rgb(0, 0, 255);
+
+a,
+li,
+h1,
+h2 {
+  list-style: none;
   text-decoration: none;
+}
+
+.cabecario {
+  background-color: rgba(120, 212, 181, 0.286);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh;
+}
+.imagem-logo-cabecario {
+  height: 10vh;
+  width: 10vh;
+}
+
+.lista-nav {
+  margin-left: 1vh;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.imagem-logo {
+  margin: 2vh;
+  height: 25vh;
+  width: 25vh;
+}
+
+.titulo-login {
+  padding: 5vh;
+  font-weight: bold;
+}
+
+.criarConta {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  color: rgb(0, 0, 255);
+  padding: 2vh;
 }
 
 h1 {
@@ -22,33 +64,27 @@ h1 {
   align-content: space-around;
   justify-content: space-around;
   align-items: stretch;
-  padding-top: 200px;
 }
 
-div.login {
+.login {
   text-decoration: none;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding: 350px;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 20px;
 }
 
-footer {
+.rodape {
   background-color: rgba(120, 212, 181, 0.286);
-  margin-top: 10%;
-  display: flex;
-  align-content: space-around;
-  justify-content: center;
-  align-items: stretch;
-  gap: 30px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2vh;
 }
+
 input#email {
   border-radius: 4px;
-  display: flex;
+  display: block;
   width: 350px;
   gap: 2px;
   font-size: 20px;
@@ -56,7 +92,7 @@ input#email {
 
 input#senha {
   border-radius: 4px;
-  display: flex;
+  display: block;
   width: 350px;
   gap: 2px;
   font-size: 20px;
@@ -73,31 +109,10 @@ input#lembrar {
   height: 16px;
 }
 
-form {
-  height: 160px; /* Altura do Footer*/
-  align-items: center;
-  flex-direction: column;
-}
-
 input {
   width: 90px;
   height: 30px;
   margin: 8px 8px;
-}
-
-strong {
-  display: flex;
-  margin: 20px;
-  justify-content: space-around;
-  align-items: stretch;
-}
-
-a {
-  text-decoration: none;
-  display: flex;
-  margin: 20px;
-  align-items: stretch;
-  justify-content: space-around;
 }
 
 input.botao {
