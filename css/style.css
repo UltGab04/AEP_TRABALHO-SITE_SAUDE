@@ -22,7 +22,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh;
+  padding: 1dvh;
 }
 .imagem-logo-cabecario {
   height: 10vh;
