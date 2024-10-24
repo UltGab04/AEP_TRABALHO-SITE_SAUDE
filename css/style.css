@@ -67,6 +67,7 @@ input {
 }
 
 input.botao {
+  display: flex;
   align-items: center;
   width: 100px;
   height: 40px;

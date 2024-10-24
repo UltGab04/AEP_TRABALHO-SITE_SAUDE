@@ -31,8 +31,14 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh;
+   padding: 1ch;
 }
+
+.lista{
+  display: flex;
+  flex-direction: row;
+}
+
 .imagem-logo-cabecario {
   height: 10vh;
   width: 10vh;
@@ -56,8 +62,6 @@ html {
   justify-content: space-between;
   left: 0;
   bottom: 0;
-  width: 100%;
-  padding: 1vh;
 }
 .container-rodape {
   margin: 5%;
