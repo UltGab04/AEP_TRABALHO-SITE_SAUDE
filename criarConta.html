@@ -4,8 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Criar conta</title>
-    <link rel="stylesheet" href="css/background.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
-  <body></body>
+  =======
+  <body>
+    <header>
+      <nav class="cabecario">
+        <img
+          src="img/Imagem1.png"
+          alt="Imagem da logo do site"
+          class="imagem-logo-cabecario"
+        />
+        <li class="lista-nav">
+          <a href="paginaInicial.html" target="_self">Medical App</a>
+        </li>
+        <li class="lista-nav">
+          <a href="criarConta.html" target="_self">Criar conta</a>
+        </li>
+        <li class="lista-nav"><a href="login.html" target="_self">Logar</a></li>
+      </nav>
+    </header>
+
+    <div class="form">
+      <form id="signup-form" action="submit-form/" method="post">
+        <label for="nome">Primeiro nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required />
+        <br />
+        <label for="date">Data de nascimento</label>
+        <input type="date" name="dataNascimento" id="dataNascimento" />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required />
+
+        <input type="checkbox" name="mostrarSenha" id="mostrarSenha" />
+        <label for="checkbox">Mostrar Senha</label>
+        <br />
+
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <br />
+        <input
+          type="password"
+          id="confirmarSenha"
+          name="confirmarSenha"
+          required
+        />
+        <br />
+        <a href="" target="_parent" rel="noopener noreferrer"></a>
+        <input type="checkbox" name="aceitarTermos" id="aceitarTermos" />
+
+        <label for="checkbox">Li e Aceito os termos</label>
+        <br />
+        <button type="submit">Criar Conta</button>
+      </form>
+    </div>
+
+    <script src="scripts/login.js"></script>
+  </body>
 </html>
+>>>>>>> Stashed changes
