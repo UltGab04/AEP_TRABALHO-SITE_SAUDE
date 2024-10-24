@@ -1,0 +1,35 @@
+form#signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+body {
+  display: block;
+}
+
+label {
+  gap: 2px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 2dvh;
+}
+
+input#nome {
+  width: 250px;
+  height: 25px;
+}
+
+input#sobrenome {
+  width: 250px;
+  height: 25px;
+}
+
+input#dataNascimento {
+  height: 40px;
+  width: 120px;
+  text-align: center;
+}
