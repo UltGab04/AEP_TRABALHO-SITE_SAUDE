@@ -1,44 +1,4 @@
-html,
-body {
-  background-image: url(/img/Tema\ site\ 1920\ x\ 1080.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-}
-
-a,
-li,
-h1,
-h2 {
-  list-style: none;
-  text-decoration: none;
-}
-
-.cabecario {
-  background-color: rgba(120, 212, 181, 0.286);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2vh;
-}
-.imagem-logo-cabecario {
-  height: 10vh;
-  width: 10vh;
-}
-
-.lista-nav {
-  margin-left: 1vh;
-}
-
-.container-logo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
+/* Seção do formulário login */
 .imagem-logo {
   margin: 2vh;
   height: 25vh;
@@ -56,7 +16,7 @@ h2 {
   align-content: center;
   text-align: center;
   color: rgb(0, 0, 255);
-  padding: 2vh;
+  padding: 5vh;
 }
 
 h1 {
@@ -71,15 +31,6 @@ h1 {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-}
-
-.rodape {
-  background-color: rgba(120, 212, 181, 0.286);
-  text-align: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 2vh;
 }
 
 input#email {
