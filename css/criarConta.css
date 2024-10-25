@@ -7,8 +7,6 @@ form#signup-form {
   align-items: stretch;
 }
 
-
-
 label {
   gap: 2px;
   font-size: 20px;
@@ -32,3 +30,6 @@ input#dataNascimento {
   text-align: center;
 }
 
+button {
+  background-color: aqua;
+}
