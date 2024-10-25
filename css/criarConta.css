@@ -21,20 +21,48 @@ label {
 input#nome {
   width: 250px;
   height: 25px;
+  border-radius: 4px;
 }
 
 input#sobrenome {
   width: 250px;
   height: 25px;
+  border-radius: 4px;
 }
 
 input#dataNascimento {
   height: 40px;
   width: 120px;
   text-align: center;
+  border-radius: 4px;
 }
 
 input#email {
   width: 250px;
   height: 25px;
+  border-radius: 4px;
+}
+
+input#senha {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+input#confirmarSenha {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+input#telefone {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+button {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
 }
