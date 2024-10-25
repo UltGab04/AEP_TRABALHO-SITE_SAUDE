@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Criar conta</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/padrao.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/criarConta.css">
+    <link rel="stylesheet" href="css/criarConta.css" />
     <script src="scripts/script.js"></script>
   </head>
   <body>
@@ -36,23 +37,30 @@
         <input type="text" id="sobrenome" name="sobrenome" required />
         <br />
         <label for="date">Data de nascimento</label>
-        <input type="date" name="dataNascimento" id="dataNascimento" />
+        <input type="date" name="dataNascimento" id="dataNascimento" required />
         <br />
         <label for="email">Email</label>
         <input type="email" name="email" id="email" required />
-
+        <br />
         <label for="senha">Senha:</label>
+        <br />
         <input type="password" id="senha" name="senha" required />
-        <input type="checkbox" name="mostrarSenha" id="mostrarSenha" /> Mostrar
-        Senha
+        <br />
         <label for="confirmarSenha">Confirmar Senha:</label>
+        <br />
         <input
           type="password"
           id="confirmarSenha"
           name="confirmarSenha"
           required
         />
-
+        <br />
+        <label for="telefone">Número do Celular</label>
+        <input type="number" name="telefone" id="telefone" />
+        <a href="" target="_parent" rel="noopener noreferrer"></a>
+        <input type="checkbox" name="aceitarTermos" id="aceitarTermos" />
+        <label for="checkbox">Li e Aceito os termos</label>
+        <br />
         <button type="submit">Criar Conta</button>
       </form>
     </div>
