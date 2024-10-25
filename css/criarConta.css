@@ -29,3 +29,8 @@ input#dataNascimento {
   width: 120px;
   text-align: center;
 }
+
+button {
+  background-color: aqua;
+  
+}
