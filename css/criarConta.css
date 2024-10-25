@@ -41,5 +41,6 @@ button {
 }
 
 .termos input[type="checkbox"] {
+  range: infinite;
   margin-right: 10px; /* Ajusta o espaço entre a checkbox e o texto */
 }
