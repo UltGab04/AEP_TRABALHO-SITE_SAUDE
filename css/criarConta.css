@@ -30,9 +30,24 @@ input#dataNascimento {
   text-align: center;
 }
 
-button {
-  background-color: aqua;
-  width: 100px;
+input#email {
+  width: 250px;
+  height: 25px;
+}
+
+input#senha {
+  width: 250px;
+  height: 25px;
+}
+
+input#confirmarSenha {
+  width: 250px;
+  height: 25px;
+}
+
+input#telefone {
+  width: 250px;
+  height: 25px;
 }
 
 .termos {
@@ -43,4 +58,14 @@ button {
 .termos input[type="checkbox"] {
   range: infinite;
   margin-right: 10px; /* Ajusta o espaço entre a checkbox e o texto */
+}
+
+input#aceitarTermos {
+  width: 2.5dvh;
+  height: 2.5dvh;
+}
+button {
+  background-color: aqua;
+  width: 250px;
+  height: 25px;
 }
