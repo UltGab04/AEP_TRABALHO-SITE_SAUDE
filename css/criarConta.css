@@ -32,5 +32,14 @@ input#dataNascimento {
 
 button {
   background-color: aqua;
-  
+  width: 100px;
+}
+
+.termos {
+  display: flex;
+  align-items: center; /* Alinha a checkbox e o texto verticalmente */
+}
+
+.termos input[type="checkbox"] {
+  margin-right: 10px; /* Ajusta o espaço entre a checkbox e o texto */
 }
