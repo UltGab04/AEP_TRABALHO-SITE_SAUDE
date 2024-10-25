@@ -62,6 +62,7 @@ input#telefone {
 }
 
 button {
+  background-color: #00ffff;
   width: 250px;
   height: 25px;
   border-radius: 4px;
