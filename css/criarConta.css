@@ -30,33 +30,17 @@ input#dataNascimento {
   text-align: center;
 }
 
-input#email {
-  width: 250px;
-  height: 25px;
-}
-
-input#senha {
-  width: 250px;
-  height: 25px;
-}
-
-input#confirmarSenha {
-  width: 250px;
-  height: 25px;
-}
-
-input#telefone {
-  width: 250px;
-  height: 25px;
-}
-input#aceitarTermos {
-  width: 2dvh;
-  height: 2dvh;
-  align-self: flex-end;
-}
-
 button {
   background-color: aqua;
-  width: 250px;
-  height: 25px;
+  width: 100px;
+}
+
+.termos {
+  display: flex;
+  align-items: center; /* Alinha a checkbox e o texto verticalmente */
+}
+
+.termos input[type="checkbox"] {
+  range: infinite;
+  margin-right: 10px; /* Ajusta o espaço entre a checkbox e o texto */
 }
