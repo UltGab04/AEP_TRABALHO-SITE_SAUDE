@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/padrao.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="scripts/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="cabecario">
+        <div>
+          <a href="login.html">
+            <img
+              src="img/Imagem1.png"
+              alt="Imagem da logo do site"
+              class="imagem-logo-cabecario"
+            />
+          </a>
+        </div>
+        <div class="lista">
+          <li class="lista-nav">
+            <a href="paginaInicial.html" target="_self">Medical App</a>
+          </li>
+          <li class="lista-nav">
+            <a href="criarConta.html" target="_blank"
+              >Não tem uma conta? Crie uma!</a
+            >
+          </li>
+          <li class="lista-nav">
+            <a href="index.html" target="_self">Realizar o login</a>
+          </li>
+        </div>
+    </header>
+    <div class="container-logo">
+      <img
+        src="img/Imagem1.png"
+        alt="Imagem da logo do site"
+        class="imagem-logo"
+      />
+    </div>
+
+    <h1 class="titulo-login">Login</h1>
+    <div class="login">
+      <form action="paginaInicial.html" method="post">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br />
+
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite sua senha"
+        />
+        <br />
+        <label for="lembrar">Lembrar meu Login</label>
+        <input type="checkbox" name="lembrar" id="lembrar" />
+        <br />
+        <br />
+        <a href="redefinirSenha.html">Redefinir Senha</a>
+        <input
+          type="submit"
+          value="Confirmar"
+          class="botao"
+          style="margin-right: 80px; margin-left: 130px"
+        />
+        <div class="criarConta">
+          <h2>Não possui cadastro ?</h2>
+          <br />
+          <a href="criarConta.html" target="_self"
+            >Clique aqui para criar a conta
+          </a>
+        </div>
+      </form>
+    </div>
+
+    <footer class="rodape">
+      <div>
+        <nav>
+          <li>
+            <div class="container-rodape">
+              <img
+                src="img/Imagem1.png"
+                alt="Imagem da logo do site"
+                class="imagem-logo-cabecario"
+              />
+              <br />
+              <a href="#" target="_blank">Sobre nós</a>
+              <br />
+              <a href="#" target="_blank">Contato</a>
+              <br />
+              <a href="#" target="_blank">Acesse nossas redes</a>
+              <br />
+            </div>
+          </li>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <li>
+            <div class="container-rodape container-sem-img">
+              <a href="#" target="_blank">Sobre nós</a>
+              <br />
+              <a href="#" target="_blank">Contato</a>
+              <br />
+              <a href="#" target="_blank">Acesse nossas redes</a>
+              <br />
+            </div>
+          </li>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <li>
+            <div class="container-sem-img">
+              <a href="#" target="_blank">Sobre nós</a>
+              <br />
+              <a href="#" target="_blank">Contato</a>
+              <br />
+              <a href="#" target="_blank">Acesse nossas redes</a>
+              <br />
+            </div>
+          </li>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
