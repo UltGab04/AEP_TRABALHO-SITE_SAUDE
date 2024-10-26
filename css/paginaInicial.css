@@ -1,0 +1,49 @@
+.slides-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slides-fade {
+    display: none;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Botões de navegação */
+.voltar, .proximo {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    transition: 0.3s ease;
+    user-select: none;
+}
+
+.proximo {
+    right: 0;
+}
+
+.voltar:hover, .proximo:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Efeito fade */
+.slides-fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from { opacity: 0.4 } 
+    to { opacity: 1 }
+}
