@@ -6,6 +6,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
   height: 100dvh;
 }
 a,
@@ -56,8 +57,7 @@ html {
 .rodape {
   background-color: rgba(120, 212, 181, 0.286);
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
   text-align: center;
   margin-top: 5vh;
   padding: 5vh;
