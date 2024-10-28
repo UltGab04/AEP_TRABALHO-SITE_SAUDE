@@ -3,9 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Criar conta</title>
+    <title>Menu Principal</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/padrao.css">
+   
+    <link rel="stylesheet" href="css/menuInicial.css">
   </head>
-  <body></body>
+  <body>
+    <header>
+      <p>Olá, <span id="user-name">Nome</span></p>
+      <div class="icons">
+        <span class="icone-sino">🔔</span>
+        <span class="icone-acessibilidade">♿</span>
+        <button class="menu"><menu type="toolbar">MENU</menu></button>
+     
+      </div>
+    </header>
+
+    <section class="pesquisa">
+      <input type="text" placeholder="Pesquisar" id="">
+      <button class="mic-icone">🎤</button>
+      <button class="pesquisar">🔍</button>
+    </section>
+
+    <section class="menu-rapido">
+      <h2>Menu Rápido</h2>
+      <button onclick="laudosMedicos()">Confira seus laudos médicos prontos</button>
+      <button onclick="mostrarConsultas()">Confira suas consultas marcadas</button>
+      <button onclick="remarcarConsultas()">Cancelar ou remarcar consultas</button>
+    </section>
+      
+   
+
+  </body>
+
+  <script src="scripts/menuPrincipal.js"></script>
 </html>
