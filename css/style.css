@@ -80,3 +80,6 @@ input.botao {
   cursor: pointer;
   margin-left: 80px;
 }
+a {
+  vertical-align: super;
+}
