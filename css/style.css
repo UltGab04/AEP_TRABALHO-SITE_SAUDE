@@ -24,6 +24,7 @@ h1 {
   align-content: space-around;
   justify-content: space-around;
   align-items: stretch;
+  font-size: 4dvh;
 }
 
 .login {
