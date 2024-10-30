@@ -169,6 +169,12 @@ button.menu {
   width: 16dvh;
 }
 
+menu {
+  display: contents;
+  font-size: 2.6dvh;
+  font-weight: bold;
+}
+
 button {
   height: 8dvh;
   width: 50dvh;
