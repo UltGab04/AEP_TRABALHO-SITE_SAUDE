@@ -11,11 +11,6 @@ body {
   padding: 10px;
 }
 
-.icons {
-  display: flex;
-  gap: 10px;
-}
-
 .search-bar {
   display: flex;
   justify-content: center;
@@ -35,17 +30,28 @@ body {
 }
 
 .menu-rapido {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   padding: 20px;
   background-color: #d3d3d3;
-  text-align: center;
 }
 
 .menu-rapido h2 {
   margin-top: 0;
 }
 
-.menu-rapido button {
+.icones-menu-rapido {
   display: block;
+  width: 4vh;
+  margin-right: 2vh;
+}
+
+.menu-rapido button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 10px auto;
   padding: 10px 20px;
   background-color: #4eafc4;
@@ -83,10 +89,11 @@ body {
 }
 
 img {
-  display: block;
   width: 100%;
   max-width: 100%;
-  max-height: 50%;
+}
+.imagens-campanha {
+  display: block;
 }
 
 /* Botões de navegação */
