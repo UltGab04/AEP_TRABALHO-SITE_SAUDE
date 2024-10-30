@@ -3,9 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Criar conta</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/padrao.css" />
+
+    <link rel="stylesheet" href="css/menuInicial.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="icons">
+        <p>Olá, <span id="user-name">Nome</span></p>
+
+        <span class="icone-sino"
+          ><img
+            src="icons/bell-svgrepo-com.png"
+            alt=""
+            srcset=""
+            style="width: 5dvh"
+        /></span>
+        <span class="icone-acess"
+          ><img
+            src="icons/acessibilidade.png"
+            alt=""
+            srcset=""
+            style="width: 5dvh"
+        /></span>
+        <button class="menu"><menu type="toolbar"><img src="icons/barra menu.png" alt="" style="width: 20px;">MENU</menu></button>
+      </div>
+    </header>
+
+    <section class="pesquisa">
+      <input type="text" placeholder="Pesquisar" id="" />
+      <button class="mic-icone"><img src="icons/microfone.png" alt="" srcset="" style="width: 20px;"></button>
+      <button class="pesquisar"><img src="icons/lupa.png" alt="" sizes="" srcset="" style="width: 20px;"></button>
+    </section>
+
+    <section class="menu-rapido">
+      <h2>Menu Rápido</h2>
+      <button onclick="laudosMedicos()">
+        <img src="icons/cedulacolor.png" alt="" style="width: 30px;">Confira seus laudos médicos prontos
+      </button>
+      <button onclick="mostrarConsultas()">
+       <img src="icons/calendario-linhas-canetacolor.png" alt="" srcset="" style="width: 30px;"> Confira suas consultas marcadas
+      </button>
+      <button onclick="consultarBoletos()">
+        <img src="icons/codigo-de-barras-lidocolor.png" alt="" style="width: 30px;">
+        Boletos para pagamentos
+      </button>
+    </section>
+
+    <div class="menu-container"></div>
+    <h1>Campanhas Atuais</h1>
+    <div class="slides-container">
+      <div class="slides-fade">
+        <img
+          src="img/campanhas/outubro rosa.jpg"
+          alt=""
+          style="width: 1000px"
+        />
+        <a href="https://www.gov.br/dnocs/pt-br/assuntos/noticias/dnocs-reforca-a-importancia-do-outubro-rosa">Site da campanha <br>https://www.gov.br/dnocs/pt-br/assuntos/noticias/dnocs-reforca-a-importancia-do-outubro-rosa</a>
+      </div>
+      <div class="slides-fade">
+        <img
+          src="img/campanhas/novembro azul.png"
+          alt=""
+          style="width: 1000px"
+        />
+        <a href="https://agenciagov.ebc.com.br/noticias/202311/novembro-azul-dnocs-destaca-a-importancia-da-preservacao-e-diagnostico-precoce-do-cancer-de-prostata" style="color: rgb(0, 0, 0);">Site da campanha <br>https://agenciagov.ebc.com.br/noticias/202311/novembro-azul-dnocs-destaca-a-importancia-da-preservacao-e-diagnostico-precoce-do-cancer-de-prostata </a>
+
+
+
+        <!-- Link de referencia da img 1
+         https://www.gov.br/dnocs/pt-br/assuntos/noticias/dnocs-reforca-a-importancia-do-outubro-rosa
+         Link img 2
+         https://agenciagov.ebc.com.br/noticias/202311/novembro-azul-dnocs-destaca-a-importancia-da-preservacao-e-diagnostico-precoce-do-cancer-de-prostata-->
+      </div>
+      <a class="voltar" onclick="changeSlide(-1)">&#10094; </a>
+      <a class="proximo" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+  </body>
+
+  <script src="scripts/menuPrincipal.js"></script>
 </html>

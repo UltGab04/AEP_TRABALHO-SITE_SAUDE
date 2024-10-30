@@ -15,7 +15,7 @@
   flex-direction: column;
   align-content: center;
   text-align: center;
-  color: rgb(0, 0, 255);
+  color: #00008b;
   padding: 5vh;
 }
 
@@ -23,6 +23,8 @@ h1 {
   display: flex;
   align-content: space-around;
   justify-content: space-around;
+  align-items: stretch;
+  font-size: 4dvh;
 }
 
 .login {
@@ -80,4 +82,7 @@ input.botao {
   font-size: large;
   cursor: pointer;
   margin-left: 80px;
+}
+a {
+  vertical-align: super;
 }

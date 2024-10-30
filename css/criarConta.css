@@ -7,10 +7,6 @@ form#signup-form {
   align-items: stretch;
 }
 
-body {
-  display: block;
-}
-
 label {
   gap: 2px;
   font-size: 20px;
@@ -61,8 +57,22 @@ input#telefone {
   border-radius: 4px;
 }
 
+.termos {
+  display: flex;
+  align-items: center; /* Alinha a checkbox e o texto verticalmente */
+}
+
+.termos input[type="checkbox"] {
+  range: infinite;
+  margin-right: 10px; /* Ajusta o espaço entre a checkbox e o texto */
+}
+
+input#aceitarTermos {
+  width: 2.5dvh;
+  height: 2.5dvh;
+}
 button {
-  background-color: #00ffff;
+  background-color: aqua;
   width: 250px;
   height: 25px;
   border-radius: 4px;

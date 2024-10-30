@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/padrao.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/criarConta.css" />
-    <script src="scripts/login.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/criarConta.js"></script>
   </head>
   <body>
     <header>
@@ -59,8 +58,11 @@
         <label for="telefone">Número do Celular</label>
         <input type="number" name="telefone" id="telefone" />
         <a href="" target="_parent" rel="noopener noreferrer"></a>
-        <input type="checkbox" name="aceitarTermos" id="aceitarTermos" />
-        <label for="checkbox">Li e Aceito os termos</label>
+        <div class="termos">
+          <input type="checkbox" name="aceitarTermos" id="aceitarTermos" />
+          <label for="aceitarTermos">Li e Aceito os termos</label>
+        </div>
+
         <br />
         <button type="submit">Criar Conta</button>
       </form>
