@@ -1,8 +1,8 @@
 
 let currentIndex = 0;
 
-const images = document.querySelectorAll('.carousel-images img');
-const totalImages = images.length;
+let images = document.querySelectorAll('.carousel-images img');
+let totalImages = images.length;
 
 document.querySelector('.next').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % totalImages;
