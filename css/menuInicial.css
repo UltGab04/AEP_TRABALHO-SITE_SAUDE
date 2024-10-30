@@ -141,8 +141,9 @@ section.pesquisa {
 
 input {
   width: 70dvh;
-  height: 4dvh;
+  height: 5.5vh;
   margin: 8px 8px;
+  text-align: left;
 }
 
 div.icons {
@@ -156,13 +157,9 @@ p {
   margin-right: auto;
 }
 
-button.mic-icon {
-  height: 4dvh;
-  width: 5dvh;
-}
 button.pesquisar {
-  height: 4dvh;
-  width: 5dvh;
+  height: 6dvh;
+  width: 6dvh;
 }
 
 button.menu {
@@ -178,6 +175,12 @@ menu {
 }
 
 button {
-  height: 8dvh;
+  height: 9dvh;
   width: 50dvh;
+  margin: 1vh;
+}
+
+button.mic-icone {
+  height: 6dvh;
+  width: 6dvh;
 }
