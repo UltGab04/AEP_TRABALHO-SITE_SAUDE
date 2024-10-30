@@ -154,5 +154,22 @@ p {
   margin-right: auto;
 }
 
+button.mic-icon {
+  height: 4dvh;
+  width: 5dvh;
+}
+button.pesquisar {
+  height: 4dvh;
+  width: 5dvh;
+}
+
+button.menu {
+  display: contents;
+  height: 7.5dvh;
+  width: 16dvh;
+}
+
 button {
+  height: 8dvh;
+  width: 50dvh;
 }
