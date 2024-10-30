@@ -155,3 +155,29 @@ div.icons {
 p {
   margin-right: auto;
 }
+
+button.mic-icon {
+  height: 4dvh;
+  width: 5dvh;
+}
+button.pesquisar {
+  height: 4dvh;
+  width: 5dvh;
+}
+
+button.menu {
+  display: contents;
+  height: 7.5dvh;
+  width: 16dvh;
+}
+
+menu {
+  display: contents;
+  font-size: 2.6dvh;
+  font-weight: bold;
+}
+
+button {
+  height: 8dvh;
+  width: 50dvh;
+}
