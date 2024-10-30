@@ -6,8 +6,8 @@ function mostrarConsultas() {
   alert("Verificando consultas marcadas...");
 }
 
-function remarcarConsultas() {
-  alert("Abrindo remarcar consultas...");
+function consultarBoletos() {
+  alert("Abrindo boletos para pagamentos...");
 }
 
 let slideIndex = 1;
