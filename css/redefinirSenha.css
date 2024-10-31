@@ -1,0 +1,13 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imagem-logo {
+    margin: 2vh;
+    height: 25vh;
+    width: 25vh;
+  }
