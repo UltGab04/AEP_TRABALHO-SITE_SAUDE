@@ -80,6 +80,8 @@ body {
 .slides-container {
   position: relative;
   margin: auto;
+  max-width: 1000px;
+  
 }
 
 .slides-fade {
@@ -191,4 +193,8 @@ button {
 button.mic-icone {
   height: 6dvh;
   width: 6dvh;
+}
+
+.campanhas{
+margin-top: 2%;
 }
