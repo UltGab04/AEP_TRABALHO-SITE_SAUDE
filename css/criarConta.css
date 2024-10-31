@@ -5,6 +5,8 @@ form#signup-form {
   align-content: space-around;
   justify-content: space-around;
   align-items: stretch;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 label {

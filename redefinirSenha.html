@@ -5,28 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redefinir Senha</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/redefinirSenha.css">
     <link rel="stylesheet" href="css/padrao.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="scripts/script.js"></script>
   </head>
   <body>
     <header>
       <nav class="cabecario">
-        <img
-          src="img/Imagem1.png"
-          alt="Imagem da logo do site"
-          class="imagem-logo-cabecario"
-        />
-        <li class="lista-nav">
-          <a href="paginaInicial.html" target="_self">Medical App</a>
-        </li>
-        <li class="lista-nav">
-          <a href="criarConta.html" target="_self">Criar conta</a>
-        </li>
-        <li class="lista-nav"><a href="login.html" target="_self">Logar</a></li>
-      </nav>
+        <div>
+          <a href="paginaInicial.html">
+            <img
+              src="img/Imagem1.png"
+              alt="Imagem da logo do site"
+              class="imagem-logo-cabecario"
+            />
+          </a>
+        </div>
+        <div class="lista">
+          <li class="lista-nav">
+            <a href="menuPrincipal.html" target="_self">Menu inicial</a>
+          </li>
+          <li class="lista-nav">
+            <a href="criarConta.html" target="_blank"
+              >Criar uma conta</a
+            >
+          </li>
+          <li class="lista-nav">
+            <a href="login.html" target="_self">Realizar o login</a>
+          </li>
+        </div>
     </header>
     <div class="container-logo">
       <img
@@ -38,7 +46,61 @@
     <div class="container-recuperar">
       <label for="">Digite o email cadastrado</label>
       <input type="email" name="" id="" />
-      <button type="submit">Confirmar</button>
+      <button onclick="enviarEmail()">Confirmar</button>
     </div>
+    <footer class="rodape">
+      <div>
+        <nav>
+          <li>
+            <a href="paginaInicial.html" target="_blank">
+              <img
+                src="img/Imagem1.png"
+                alt="Imagem da logo do site"
+                class="imagem-logo-cabecario"
+            /></a>
+          </li>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <li>
+            <div class="container-sem-img">
+              <br />
+              <a href="criarConta.html" target="_blank">Criar conta</a>
+              <br />
+              <a href="login.html" target="_blank">Logar com sua conta</a>
+              <br />
+              <a href="paginaInicial.html" target="_blank"
+                >Acessar página inicial</a
+              >
+              <br />
+            </div>
+          </li>
+        </nav>
+      </div>
+      <div>
+        <nav>
+          <li>
+            <div class="container-sem-img">
+              <br />
+              <p>Contatos</p>
+              <a
+                href="mailto:medicalapp@gmail.com"
+                class="contatos-interagivel"
+                target="_self"
+                >Entre em contato conosco clicando aqui!</a
+              >
+              <a
+                href="tel:+55 43 91111-1111"
+                class="contatos-interagivel"
+                target="_self"
+                >Ligue para a central de suporte clicando aqui!</a
+              >
+            </div>
+          </li>
+        </nav>
+      </div>
+    </footer>
+    <script src="scripts/redefinirSenha.js"></script>
   </body>
 </html>
