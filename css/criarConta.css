@@ -75,7 +75,7 @@ input#aceitarTermos {
 }
 button {
   background-color: aqua;
-  width: 250px;
-  height: 25px;
+  width: 35dvh;
+  height: 5dvh;
   border-radius: 4px;
 }
