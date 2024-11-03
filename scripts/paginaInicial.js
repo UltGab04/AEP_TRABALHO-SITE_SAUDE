@@ -21,3 +21,15 @@ function showSlides(n) {
 
     slides[slideIndex - 1].style.display = "block";
 }
+
+const fonteCabecario = document.querySelectorAll('.cab');
+
+fonteCabecario.forEach(function(elemento) {
+  elemento.addEventListener('mouseover', function() {
+    elemento.style.color = 'cyan'; 
+});
+
+elemento.addEventListener('mouseout', function() {
+  elemento.style.color = 'black';
+});
+});
