@@ -79,3 +79,24 @@ button {
   height: 5dvh;
   border-radius: 4px;
 }
+
+input#cpf {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+input#masculino {
+  width: 3dvh;
+  height: 2dvh;
+}
+
+input#feminino {
+  width: 3dvh;
+  height: 2dvh;
+}
+
+input#indefinido {
+  width: 3dvh;
+  height: 2dvh;
+}
